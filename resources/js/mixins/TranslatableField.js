@@ -81,6 +81,7 @@ export default {
                 ...this.field,
                 value: value || '',
                 attribute: `${this.field.attribute}.${locale.key}`,
+                validationKey: `${this.field.attribute}.${locale.key}`
             }
         }
     },
